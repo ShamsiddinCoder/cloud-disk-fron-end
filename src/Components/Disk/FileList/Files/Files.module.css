@@ -1,0 +1,44 @@
+.files {
+    margin: 10px 0;
+    border-bottom: solid 2px #ccc;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    align-items: center;
+}
+
+.files .file_img {
+    justify-self: center;
+    height: 4rem;
+}
+
+.files .file_size {
+    grid-column-start: 6;
+    justify-self: center;
+}
+
+.files .files_date {
+    grid-column-start: 5;
+    justify-self: center;
+}
+
+.files .file_btn_download, .file_btn_remove {
+    /* grid-column-start: 4; */
+    margin-right: .8rem;
+    height: 50%;
+    border-radius: .6rem;
+    border: solid 1px #ccc;
+}
+
+/* style plate start */
+.files_plate {
+    width: 8rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.files_plate .file_img_plate {
+    width: 100%;
+}
+/* style plate end */

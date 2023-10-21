@@ -1,0 +1,35 @@
+.avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 20rem; */
+    background: #ccc;
+    padding: 1rem;
+    border-radius: .6rem;
+    display: flex;
+    align-items: center;
+}
+
+.avatar input {
+    display: none;
+}
+
+.avatar button {
+    font-size: 1.2rem;
+    background: transparent;
+    font-weight: 600;
+    border: solid 1px #000;
+    padding: .6rem;
+    margin-right: 1rem;
+    border-radius: .6rem 0 0 .6rem;
+}
+
+.avatar label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: solid 1px #000;
+    padding: .6rem;
+    border-radius: 0 .6rem .6rem 0;
+    cursor: pointer;
+}
